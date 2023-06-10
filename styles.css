@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(206, 206, 206);
+    /* text-align: center; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#gbox{
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    /* left: 0px; */
+    /* top: 100px; */
+}
+/* 1230 590*/
+
+#pause_dialog{
+    background-color: white;
+    z-index: auto;
+}
+
+#alternate{
+    display: none;
+}
+
+@media (max-width:1230px) or (max-height:590px){
+    #default{
+        display: none;
+    }
+    #alternate{
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: block;
+        color: rgb(0, 0, 0);
+        font-size: larger;
+        font-weight: 600;
+    }
+}
