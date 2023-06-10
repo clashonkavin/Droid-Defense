@@ -285,7 +285,7 @@ class Home{
             }
         space.beginPath()
         let topPoint =  this.x-this.height
-        var lnr = space.createLinearGradient(651,350,651,545)
+        var lnr = space.createLinearGradient(651,350,651,600)
         lnr.addColorStop(1-(homeHealth/100),'rgba(255,0,0,0.6)')
         lnr.addColorStop(1,'transparent')
         space.arc(this.x+this.width/2,this.y+this.height/2,84,0,Math.PI*2)
